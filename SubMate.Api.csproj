@@ -7,16 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="SubMate.Core.csproj" />
+    <None Include="SubMate.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\SubMate.Core\SubMate.Core.csproj" />
-    <ProjectReference Include="..\SubMate.Infrastructure\SubMate.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
